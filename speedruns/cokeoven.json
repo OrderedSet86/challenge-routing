@@ -1,0 +1,307 @@
+[
+    {
+        "index": 1,
+        "title": "find village",
+        "details": "",
+        "products": [
+            "tinkers bldg",
+            "blacksmith bldg",
+            "railcraft bldg"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 2,
+        "title": "break gravel by hand",
+        "details": "",
+        "products": [
+            "gravel"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 3,
+        "title": "craft first flint",
+        "details": "",
+        "products": [
+            "flint"
+        ],
+        "prereqs": {
+            "2": [
+                "gravel"
+            ]
+        }
+    },
+    {
+        "index": 4,
+        "title": "dig 175 sand",
+        "details": "",
+        "products": [
+            "175 sand"
+        ],
+        "prereqs": {
+            "5": [
+                "shovel"
+            ]
+        }
+    },
+    {
+        "index": 5,
+        "title": "make tinkers tools",
+        "details": "",
+        "products": [
+            "pickaxe",
+            "shovel",
+            "axe"
+        ],
+        "prereqs": {
+            "1": [
+                "tinkers bldg"
+            ],
+            "3": [
+                "flint"
+            ],
+            "11": [
+                "stick"
+            ]
+        }
+    },
+    {
+        "index": 6,
+        "title": "dig 106-126 clay",
+        "details": "",
+        "products": [
+            "106-126 clay"
+        ],
+        "prereqs": {
+            "5": [
+                "shovel"
+            ]
+        }
+    },
+    {
+        "index": 7,
+        "title": "mine cobblestone",
+        "details": "",
+        "products": [
+            "cobblestone"
+        ],
+        "prereqs": {
+            "5": [
+                "pickaxe"
+            ]
+        }
+    },
+    {
+        "index": 8,
+        "title": "efficient gravel digging",
+        "details": "",
+        "products": [
+            "gravel"
+        ],
+        "prereqs": {
+            "5": [
+                "shovel"
+            ]
+        }
+    },
+    {
+        "index": 9,
+        "title": "craft flint v2",
+        "details": "",
+        "products": [
+            "flint"
+        ],
+        "prereqs": {
+            "8": [
+                "gravel"
+            ]
+        }
+    },
+    {
+        "index": 10,
+        "title": "craft furnaces",
+        "details": "",
+        "products": [
+            "furnace"
+        ],
+        "prereqs": {
+            "7": [
+                "cobblestone"
+            ],
+            "9": [
+                "flint"
+            ]
+        }
+    },
+    {
+        "index": 11,
+        "title": "break wood by hand",
+        "details": "",
+        "products": [
+            "wood"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 12,
+        "title": "efficient wood cutting (52-75ish logs)",
+        "details": "",
+        "products": [
+            "wood"
+        ],
+        "prereqs": {
+            "5": [
+                "axe"
+            ]
+        }
+    },
+    {
+        "index": 13,
+        "title": "craft gt knife",
+        "details": "",
+        "products": [
+            "GT knife"
+        ],
+        "prereqs": {
+            "9": [
+                "flint"
+            ],
+            "12": [
+                "wood"
+            ]
+        }
+    },
+    {
+        "index": 14,
+        "title": "loot stone slabs",
+        "details": "",
+        "products": [
+            "stone slab"
+        ],
+        "prereqs": {
+            "1": [
+                "blacksmith bldg",
+                "railcraft bldg"
+            ]
+        }
+    },
+    {
+        "index": 15,
+        "title": "[fast] chad from paperbark",
+        "details": "",
+        "products": [
+            "chad"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 16,
+        "title": "[fast] craft 4 paper with chad recipe",
+        "details": "",
+        "products": [
+            "4 paper"
+        ],
+        "prereqs": {
+            "14": [
+                "stone slab"
+            ],
+            "15": [
+                "chad"
+            ]
+        }
+    },
+    {
+        "index": 17,
+        "title": "craft empty pattern",
+        "details": "",
+        "products": [
+            "pattern"
+        ],
+        "prereqs": {
+            "16": [
+                "4 paper"
+            ]
+        }
+    },
+    {
+        "index": 18,
+        "title": "craft wooden brick mold",
+        "details": "",
+        "products": [
+            "wooden brick mold"
+        ],
+        "prereqs": {
+            "17": [
+                "pattern"
+            ],
+            "13": [
+                "GT knife"
+            ]
+        }
+    },
+    {
+        "index": 19,
+        "title": "craft 104 unfired coke oven brick",
+        "details": "",
+        "products": [
+            "104 unfired coke oven brick"
+        ],
+        "prereqs": {
+            "4": [
+                "175 sand"
+            ],
+            "6": [
+                "106 clay"
+            ],
+            "18": [
+                "wooden brick mold"
+            ]
+        }
+    },
+    {
+        "index": 20,
+        "title": "make 104 coke oven brick",
+        "details": "",
+        "products": [
+            "104 coke oven brick"
+        ],
+        "prereqs": {
+            "19": [
+                "104 unfired coke oven brick"
+            ],
+            "10": [
+                "furnace"
+            ],
+            "12": [
+                "52 wood"
+            ]
+        }
+    },
+    {
+        "index": 21,
+        "title": "craft 26 coke oven block",
+        "details": "",
+        "products": [
+            "26 coke oven block"
+        ],
+        "prereqs": {
+            "20": [
+                "104 coke oven brick"
+            ]
+        }
+    },
+    {
+        "index": 22,
+        "title": "build and open coke oven ui",
+        "details": "",
+        "products": [
+            "coke oven"
+        ],
+        "prereqs": {
+            "21": [
+                "26 coke oven block"
+            ]
+        }
+    }
+]

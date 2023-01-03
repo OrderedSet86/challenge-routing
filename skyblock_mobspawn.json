@@ -1,0 +1,1059 @@
+[
+    {
+        "index": 1,
+        "title": "die",
+        "details": "",
+        "products": [
+            "dirt",
+            "human flesh",
+            "grave",
+            "player head"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 2,
+        "title": "make mob spawning platform/farm",
+        "details": "use dirt to create a platform >24 blocks away so other ow mobs can spawn",
+        "products": [
+            "gunpowder (creeper)",
+            "creeper heart (creeper)",
+            "spider eye (spider, poison skeleton)",
+            "string (spider)",
+            "glowstone dust (witch)",
+            "sugar (witch)",
+            "redstone (witch, lightning creeper)",
+            "glass bottle (witch, rare drops)",
+            "gunpowder (witch, creeper)",
+            "stick (witch)",
+            "rotten flesh (zombie)",
+            "iron ingot (zombie)",
+            "carrot (zombie)",
+            "potato (zombie)",
+            "iron shovel (zombie)",
+            "ender fragment (concussion creeper, enderman)",
+            "confusing powder (concussion creeper)",
+            "ender pearl (enderman)",
+            "withering dust (wither witch)",
+            "flamestring (heatscar spider)",
+            "leather (armor creeper)",
+            "ink sac (various mobs)",
+            "torch (dark creeper)",
+            "bucket (drowning creeper)",
+            "gravel (gravel creeper)",
+            "golden nugget (brutish zombie pigman)",
+            "fishing rod (ender creeper)",
+            "water (drowning creeper)",
+            "coal (fire skeleton)",
+            "bones (skeleton)",
+            "arrow (skeleton)",
+            "flint (skeleton)",
+            "raw fish (fishing zombie)",
+            "slimeball (ghost spider, jumping creeper)",
+            "apple (gravity creeper, hungry zombie)",
+            "golden apple (hungry zombie pigman)",
+            "paper (ninja skeleton)",
+            "mushroom (plague zombie)",
+            "feather (sniper skeleton)",
+            "fire charge (spitfire skeleton)",
+            "coblestone (drowning creeper)",
+            "infernal mobs"
+        ],
+        "prereqs": {
+            "1": [
+                "dirt"
+            ]
+        }
+    },
+    {
+        "index": 3,
+        "title": "(infernal mobs) elite mob drops",
+        "details": "",
+        "products": [
+            "potion of regeneration II",
+            "potion of healing II",
+            "iron axe",
+            "iron sword",
+            "iron hoe",
+            "iron armor",
+            "piston",
+            "dispenser",
+            "sticky piston",
+            "dropper",
+            "iron ingot",
+            "gold ingot",
+            "golden armor",
+            "glistering melon",
+            "magma cream",
+            "bow",
+            "chainmail armor",
+            "thaumcraft common lootbag"
+        ],
+        "prereqs": {
+            "2": [
+                "infernal mobs"
+            ]
+        }
+    },
+    {
+        "index": 4,
+        "title": "(infernal mobs) ultra mob drops",
+        "details": "",
+        "products": [
+            "potion of regeneration II",
+            "potion of healing II",
+            "ender pearl",
+            "diamond",
+            "blaze powder",
+            "golden axe",
+            "golden sword",
+            "golden hoe",
+            "chainmail armor",
+            "glowstone",
+            "iron door",
+            "glistering melon",
+            "magma cream",
+            "fire charge",
+            "enchanted book",
+            "bow",
+            "golden apple",
+            "ghast tear",
+            "thaumcraft common lootbag"
+        ],
+        "prereqs": {
+            "2": [
+                "infernal mobs"
+            ]
+        }
+    },
+    {
+        "index": 5,
+        "title": "(infernal mobs) infernal mob drops",
+        "details": "",
+        "products": [
+            "potion of regeneration II",
+            "potion of healing II",
+            "blaze powder",
+            "diamond",
+            "ender pearl",
+            "diamond axe",
+            "diamond sword",
+            "diamond hoe",
+            "diamond armor",
+            "gold block",
+            "diamond block",
+            "emerald block",
+            "enchanted book",
+            "ghast tear",
+            "thaumcraft common lootbag"
+        ],
+        "prereqs": {
+            "2": [
+                "infernal mobs"
+            ]
+        }
+    },
+    {
+        "index": 6,
+        "title": "earliest gt tools",
+        "details": "",
+        "products": [
+            "gt tools"
+        ],
+        "prereqs": {
+            "2": [
+                "stick",
+                "iron"
+            ],
+            "14": [
+                ""
+            ]
+        }
+    },
+    {
+        "index": 7,
+        "title": "common thaumcraft lootbag",
+        "details": "",
+        "products": [
+            "bottle of enchanting",
+            "diamond",
+            "emerald",
+            "protection I enchanted book",
+            "ender pearl",
+            "gold coin",
+            "gold ingot",
+            "golden apple",
+            "enchanted golden apple",
+            "knowledge fragment",
+            "mundane amulet",
+            "mundane belt",
+            "mundane ring",
+            "various potions"
+        ],
+        "prereqs": {
+            "3": [
+                "lootbag"
+            ],
+            "4": [
+                "lootbag"
+            ],
+            "5": [
+                "lootbag"
+            ]
+        }
+    },
+    {
+        "index": 8,
+        "title": "convert zombie villager",
+        "details": "find zombie villager, apply weakness effect, feed golden apple, make sure not visible to sun",
+        "products": [
+            "villager"
+        ],
+        "prereqs": {
+            "2": [
+                "zombie villager",
+                "witch throwing weakness potion"
+            ],
+            "7": [
+                "splash weakness potion"
+            ],
+            "4": [
+                "golden apple"
+            ]
+        }
+    },
+    {
+        "index": 9,
+        "title": "farmer or lumberjack with sapling trade",
+        "details": "",
+        "products": [
+            "sapling",
+            "wood"
+        ],
+        "prereqs": {
+            "8": [
+                "villager"
+            ],
+            "7": [
+                "emerald"
+            ]
+        }
+    },
+    {
+        "index": 10,
+        "title": "spawn drowning creeper",
+        "details": "",
+        "products": [
+            "water"
+        ],
+        "prereqs": {
+            "2": [
+                "drowning"
+            ]
+        }
+    },
+    {
+        "index": 11,
+        "title": "craft furnace",
+        "details": "",
+        "products": [
+            "furnace"
+        ],
+        "prereqs": {
+            "13": [
+                "cobblestone"
+            ],
+            "2": [
+                "flint"
+            ]
+        }
+    },
+    {
+        "index": 12,
+        "title": "crafting table",
+        "details": "",
+        "products": [
+            "tools"
+        ],
+        "prereqs": {
+            "9": [
+                "wood"
+            ],
+            "2": [
+                "flint"
+            ]
+        }
+    },
+    {
+        "index": 13,
+        "title": "mine cobblestone",
+        "details": "",
+        "products": [
+            "cobblestone"
+        ],
+        "prereqs": {
+            "12": [
+                "tools"
+            ],
+            "10": [
+                "cobblestone"
+            ]
+        }
+    },
+    {
+        "index": 14,
+        "title": "obtain stone",
+        "details": "",
+        "products": [
+            "stone"
+        ],
+        "prereqs": {
+            "13": [
+                "cobblestone"
+            ],
+            "9": [
+                "wood"
+            ],
+            "11": [
+                "furnace"
+            ]
+        }
+    },
+    {
+        "index": 15,
+        "title": "crossbreed crops",
+        "details": "use 3 dirt and wood to start crossbreeding ic2 crops from saplings",
+        "products": [
+            "aurelia",
+            "ink sac",
+            "brown mushroom",
+            "carrots",
+            "cocoa",
+            "coffee beans",
+            "dyes",
+            "cactus",
+            "ferru",
+            "hops",
+            "melon",
+            "nether wart",
+            "potato",
+            "pumpkin",
+            "red mushroom",
+            "wheat",
+            "sugar cane",
+            "poppy",
+            "sticky resin",
+            "terra wart",
+            "grin powder",
+            "argentia",
+            "bauxia",
+            "blaze powder",
+            "blaze rods",
+            "bobs-yer-uncle-berry",
+            "emerald",
+            "chilly",
+            "coppon",
+            "leather",
+            "rotten flesh",
+            "bone",
+            "bone meal",
+            "gunpowder",
+            "cucumber",
+            "tiny pile of diamond dust",
+            "eggs",
+            "feather",
+            "ender pearl",
+            "eye of ender",
+            "nether quartz dust",
+            "nether quartz",
+            "certus quartz dust",
+            "calcite dust",
+            "phosphate dust",
+            "fertilizer",
+            "apatite",
+            "string",
+            "galvania",
+            "glowstone",
+            "god of thunder",
+            "grape",
+            "rope",
+            "indigo",
+            "lapis dust",
+            "lemon",
+            "liveroots",
+            "raw meat",
+            "micadia",
+            "milk wart",
+            "nickelback",
+            "oil berry",
+            "olivine",
+            "onion",
+            "platina",
+            "plumbilia",
+            "pyrolusium",
+            "iridium leaf",
+            "osmium leaf",
+            "rape",
+            "reactoria",
+            "uranium leaf",
+            "sapphire",
+            "scheelinium",
+            "slimeball",
+            "spider eye",
+            "cobweb",
+            "stargatium",
+            "endstone dust",
+            "coal dust",
+            "steeleaf powder",
+            "steeleaf",
+            "tea",
+            "ghast tear",
+            "tine twig",
+            "tomato",
+            "max tomato",
+            "uua",
+            "uum",
+            "fake ruby",
+            "scrap",
+            "plantball",
+            "plutonium 241 dust",
+            "coal",
+            "aluminium",
+            "water artichoke",
+            "barley",
+            "belladonna",
+            "bop berry",
+            "birch wood",
+            "black granite dust",
+            "",
+            "basalt dust",
+            "blackberry",
+            "blightberry",
+            "blue glowshroom",
+            "blueberry",
+            "cinderpearl",
+            "copper",
+            "cotton",
+            "dark oak wood",
+            "duskberry",
+            "ember moss",
+            "essence berry",
+            "eyebulb",
+            "flowering vines",
+            "garlic",
+            "yellow garnet dust",
+            "red garnet dust",
+            "yellow garnet",
+            "red garnet",
+            "garnet sand",
+            "glint weed",
+            "glowflower",
+            "glowing coral",
+            "glowshroom",
+            "gold",
+            "goldfish",
+            "grass",
+            "double tallgrass",
+            "fern",
+            "large fern",
+            "dead bush",
+            "stone dust",
+            "andesite",
+            "green glowshroom",
+            "huckleberry",
+            "iron oreberry",
+            "ivy",
+            "jungle wood",
+            "armor shards",
+            "thaumium",
+            "maloberry",
+            "mandragora root",
+            "moss",
+            "moss patch",
+            "tree moss",
+            "netherrack dust",
+            "paper",
+            "purple glowshroom",
+            "raspberry",
+            "red granite dust",
+            "granite",
+            "saguaro fruit",
+            "shimmerleaf",
+            "skyberry",
+            "icy needle",
+            "space plant",
+            "spanish moss",
+            "spruce bonsai",
+            "stingberry",
+            "strawberry",
+            "sugar beet",
+            "thornvines",
+            "tin",
+            "turnip",
+            "vines",
+            "lily pad",
+            "marble dust",
+            "diorite",
+            "wild carrots",
+            "wolfsbane",
+            "sand",
+            "lead",
+            "silver",
+            "salty root",
+            "force"
+        ],
+        "prereqs": {
+            "9": [
+                "wood"
+            ],
+            "6": [
+                "tools"
+            ]
+        }
+    },
+    {
+        "index": 16,
+        "title": "obtain copper oreberry or cyprium",
+        "details": "",
+        "products": [
+            "copper precursor"
+        ],
+        "prereqs": {
+            "15": [
+                "copper"
+            ]
+        }
+    },
+    {
+        "index": 17,
+        "title": "craft mortar",
+        "details": "",
+        "products": [
+            "mortar"
+        ],
+        "prereqs": {
+            "14": [
+                "stone for mortar"
+            ]
+        }
+    },
+    {
+        "index": 18,
+        "title": "obtain tin oreberry or stagnium",
+        "details": "",
+        "products": [
+            "tin precursor"
+        ],
+        "prereqs": {
+            "15": [
+                "tin"
+            ]
+        }
+    },
+    {
+        "index": 19,
+        "title": "mix and smelt bronze",
+        "details": "",
+        "products": [
+            "bronze"
+        ],
+        "prereqs": {
+            "16": [
+                "copper"
+            ],
+            "18": [
+                "tin"
+            ],
+            "17": [
+                "mortar"
+            ]
+        }
+    },
+    {
+        "index": 20,
+        "title": "craft xp drain and rc iron tank",
+        "details": "",
+        "products": [
+            "xp bucket"
+        ],
+        "prereqs": {
+            "19": [
+                "bronze"
+            ],
+            "2": [
+                "iron"
+            ]
+        }
+    },
+    {
+        "index": 21,
+        "title": "xp bucket crafting",
+        "details": "crafting using filled xp buckets in a crafting table",
+        "products": [
+            "charcoal",
+            "redstone",
+            "glass dust",
+            "string",
+            "clay dust",
+            "stone dust",
+            "flint dust",
+            "gypsum dust",
+            "calcite dust",
+            "sulfur dust",
+            "quartz sand",
+            "iron dust",
+            "tin dust",
+            "nickel dust",
+            "copper dust",
+            "raw rubber dust",
+            "obsidian dust",
+            "brick dust",
+            "wrought iron dust",
+            "sticky resin",
+            "arsenic dust",
+            "aluminium dust",
+            "silver dust",
+            "gold dust",
+            "gallium dust",
+            "leather",
+            "cobalt brass dust"
+        ],
+        "prereqs": {
+            "20": [
+                "filled xp bucket"
+            ]
+        }
+    },
+    {
+        "index": 22,
+        "title": "make grass from weeds",
+        "details": "",
+        "products": [
+            "grass"
+        ],
+        "prereqs": {
+            "15": [
+                "weeds"
+            ]
+        }
+    },
+    {
+        "index": 23,
+        "title": "passive mob spawning",
+        "details": "",
+        "products": [
+            "wool",
+            "leather",
+            "meat"
+        ],
+        "prereqs": {
+            "22": [
+                "grass"
+            ]
+        }
+    },
+    {
+        "index": 24,
+        "title": "skip night (bed)",
+        "details": "",
+        "products": [
+            "bed"
+        ],
+        "prereqs": {
+            "23": [
+                "wool"
+            ]
+        }
+    },
+    {
+        "index": 25,
+        "title": "coke oven",
+        "details": "automated fuel for steam + torches",
+        "products": [
+            "charcoal",
+            "cactus charcoal"
+        ],
+        "prereqs": {
+            "21": [
+                "clay dust"
+            ],
+            "13": [
+                "sand"
+            ]
+        }
+    },
+    {
+        "index": 26,
+        "title": "bricked blast furnace",
+        "details": "",
+        "products": [
+            "steel"
+        ],
+        "prereqs": {
+            "29": [
+                "firebrick"
+            ],
+            "21": [
+                "gypsum",
+                "calcite",
+                "quartz sand",
+                "clay dust",
+                "stone dust"
+            ],
+            "10": [
+                "water"
+            ]
+        }
+    },
+    {
+        "index": 27,
+        "title": "alloy smelter",
+        "details": "",
+        "products": [
+            "red alloy",
+            "cupronickel",
+            "obsidian glass"
+        ],
+        "prereqs": {
+            "19": [
+                "bronze ingot"
+            ],
+            "21": [
+                "redstone"
+            ]
+        }
+    },
+    {
+        "index": 28,
+        "title": "piston craft",
+        "details": "",
+        "products": [
+            "piston"
+        ],
+        "prereqs": {
+            "27": [
+                "red alloy"
+            ]
+        }
+    },
+    {
+        "index": 29,
+        "title": "steam compressor",
+        "details": "for compressing fireclay dust",
+        "products": [
+            "firebrick",
+            "gt wood plank",
+            "compressor"
+        ],
+        "prereqs": {
+            "16": [
+                "copper"
+            ],
+            "18": [
+                "tin"
+            ],
+            "25": [
+                "charcoal for steam"
+            ],
+            "28": [
+                "piston"
+            ]
+        }
+    },
+    {
+        "index": 30,
+        "title": "beekeeper with simmering comb trade",
+        "details": "chance of simmering comb trade is 3/40 (from testing)",
+        "products": [
+            "simmering comb"
+        ],
+        "prereqs": {
+            "8": [
+                "villager"
+            ],
+            "7": [
+                "emerald"
+            ]
+        }
+    },
+    {
+        "index": 31,
+        "title": "librarian with glass + book trade",
+        "details": "",
+        "products": [
+            "glass",
+            "bookshelf"
+        ],
+        "prereqs": {
+            "8": [
+                "villager"
+            ],
+            "7": [
+                "emerald"
+            ]
+        }
+    },
+    {
+        "index": 32,
+        "title": "craft rubber bar",
+        "details": "",
+        "products": [
+            "rubber bar"
+        ],
+        "prereqs": {
+            "21": [
+                "sulfur",
+                "rubber"
+            ]
+        }
+    },
+    {
+        "index": 33,
+        "title": "craft lv motors",
+        "details": "",
+        "products": [
+            "LV motor"
+        ],
+        "prereqs": {
+            "32": [
+                "rubber"
+            ],
+            "21": [
+                "copper",
+                "iron",
+                "redstone"
+            ]
+        }
+    },
+    {
+        "index": 34,
+        "title": "craft forestry centrifuge",
+        "details": "",
+        "products": [
+            "centrifuge"
+        ],
+        "prereqs": {
+            "27": [
+                "cupronickel"
+            ],
+            "26": [
+                "steel"
+            ],
+            "33": [
+                "motor"
+            ]
+        }
+    },
+    {
+        "index": 35,
+        "title": "obtain lapis lazuli plates",
+        "details": "",
+        "products": [
+            "lapis lazuli plate"
+        ],
+        "prereqs": {
+            "29": [
+                "compressor"
+            ],
+            "46": [
+                "lapis dust"
+            ]
+        }
+    },
+    {
+        "index": 36,
+        "title": "craft hobbyist steam engine",
+        "details": "",
+        "products": [
+            "rf"
+        ],
+        "prereqs": {
+            "35": [
+                "lapis plate"
+            ],
+            "26": [
+                "steel"
+            ]
+        }
+    },
+    {
+        "index": 37,
+        "title": "process simmering combs",
+        "details": "",
+        "products": [
+            "refractory wax",
+            "phosphor"
+        ],
+        "prereqs": {
+            "34": [
+                "centrifuge"
+            ],
+            "36": [
+                "RF"
+            ],
+            "30": [
+                "simmering comb"
+            ]
+        }
+    },
+    {
+        "index": 38,
+        "title": "craft forestry squeezer",
+        "details": "",
+        "products": [
+            "squeezer"
+        ],
+        "prereqs": {
+            "33": [
+                "motor"
+            ],
+            "39": [
+                "bc tank"
+            ],
+            "26": [
+                "steel"
+            ],
+            "27": [
+                "cupronickel"
+            ]
+        }
+    },
+    {
+        "index": 39,
+        "title": "craft bc tank",
+        "details": "",
+        "products": [
+            "BC tank"
+        ],
+        "prereqs": {
+            "21": [
+                "obsidian"
+            ],
+            "31": [
+                "glass"
+            ],
+            "27": [
+                "obsidian glass"
+            ]
+        }
+    },
+    {
+        "index": 40,
+        "title": "process phosphor into lava",
+        "details": "",
+        "products": [
+            "lava"
+        ],
+        "prereqs": {
+            "38": [
+                "squeezer"
+            ],
+            "37": [
+                "phosphor"
+            ],
+            "36": [
+                "RF"
+            ]
+        }
+    },
+    {
+        "index": 41,
+        "title": "tc smeltery",
+        "details": "",
+        "products": [
+            "molds",
+            "sticky glue"
+        ],
+        "prereqs": {
+            "2": [
+                "sand",
+                "gravel"
+            ],
+            "21": [
+                "clay dust"
+            ],
+            "40": [
+                "lava"
+            ]
+        }
+    },
+    {
+        "index": 42,
+        "title": "heretic with profane wand trade",
+        "details": "",
+        "products": [
+            "profane wand"
+        ],
+        "prereqs": {
+            "8": [
+                "villager"
+            ]
+        }
+    },
+    {
+        "index": 43,
+        "title": "craft research table",
+        "details": "",
+        "products": [
+            "research table"
+        ],
+        "prereqs": {
+            "42": [
+                "profane wand"
+            ],
+            "21": [
+                "iron dust"
+            ]
+        }
+    },
+    {
+        "index": 44,
+        "title": "craft scribing tools",
+        "details": "",
+        "products": [
+            "scribing tools"
+        ],
+        "prereqs": {
+            "2": [
+                "glass bottle (witch, rare drops)",
+                "feather (sniper skeleton)",
+                "ink sac (various mobs)"
+            ],
+            "32": [
+                "rubber"
+            ]
+        }
+    },
+    {
+        "index": 45,
+        "title": "perform research",
+        "details": "",
+        "products": [
+            "thaumcraft research"
+        ],
+        "prereqs": {
+            "44": [
+                "scribing tools"
+            ],
+            "43": [
+                "research table"
+            ],
+            "31": [
+                "bookshelf"
+            ]
+        }
+    },
+    {
+        "index": 46,
+        "title": "research lazullia",
+        "details": "",
+        "products": [
+            "lapis lazuli"
+        ],
+        "prereqs": {
+            "45": [
+                "thaumcraft research"
+            ]
+        }
+    }
+]

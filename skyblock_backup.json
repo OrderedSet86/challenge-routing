@@ -1,0 +1,50 @@
+[
+    {
+        "index": 1,
+        "title": "spawned items",
+        "details": "",
+        "products": [
+            "2 lava",
+            "2 buckets",
+            "1 dirt",
+            "1 crafting table",
+            "1 furnace",
+            "1 sand",
+            "1 cactus",
+            "1 oak sapling",
+            "1 silverwood sapling",
+            "1 greatwood sapling",
+            "1 tank + 1 xp drain",
+            "starter bees",
+            "2 honeycombs",
+            "1 chicken spawn egg",
+            "1 flawless diamond",
+            "1 ocelot spawn egg",
+            "1 crimson cultist book"
+        ],
+        "prereqs": []
+    },
+    {
+        "index": 2,
+        "title": "xp orbs from chickens",
+        "details": "kill chickens from eggs for xp",
+        "products": [
+            "xp"
+        ],
+        "prereqs": [
+            1
+        ]
+    },
+    {
+        "index": 3,
+        "title": "xp buckets from tank",
+        "details": "drain xp into xp drain + tank and collect with an empty bucket",
+        "products": [
+            "filled xp bucket"
+        ],
+        "prereqs": [
+            1,
+            2
+        ]
+    }
+]

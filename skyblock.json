@@ -1,0 +1,713 @@
+[
+    {
+        "index": 1,
+        "title": "spawned items",
+        "details": "",
+        "products": [
+            "2 lava",
+            "2 buckets",
+            "1 dirt",
+            "1 crafting table",
+            "1 furnace",
+            "1 oak sapling",
+            "1 silverwood sapling",
+            "1 greatwood sapling",
+            "1 tank + 1 xp drain",
+            "starter bees",
+            "2 honeycombs",
+            "1 chicken spawn egg",
+            "1 flawless diamond",
+            "1 ocelot spawn egg",
+            "1 crimson cultist book"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 2,
+        "title": "chicken farming",
+        "details": "kill chickens from eggs for xp",
+        "products": [
+            "xp"
+        ],
+        "prereqs": {
+            "1": [
+                "chicken spawn egg"
+            ]
+        }
+    },
+    {
+        "index": 3,
+        "title": "tank and drain",
+        "details": "drain xp into xp drain + tank and collect with an empty bucket",
+        "products": [
+            "filled xp bucket"
+        ],
+        "prereqs": {
+            "1": [
+                "empty bucket"
+            ],
+            "2": [
+                "xp"
+            ]
+        }
+    },
+    {
+        "index": 4,
+        "title": "xp bucket crafting",
+        "details": "crafting using filled xp buckets in a crafting table",
+        "products": [
+            "charcoal",
+            "redstone",
+            "glass dust",
+            "string",
+            "clay dust",
+            "stone dust",
+            "flint dust",
+            "gypsum dust",
+            "calcite dust",
+            "sulfur dust",
+            "quartz sand",
+            "iron dust",
+            "tin dust",
+            "nickel dust",
+            "copper dust",
+            "raw rubber dust",
+            "obsidian dust",
+            "brick dust",
+            "wrought iron dust",
+            "sticky resin",
+            "arsenic dust",
+            "aluminium dust",
+            "silver dust",
+            "gold dust",
+            "gallium dust",
+            "leather",
+            "cobalt brass dust"
+        ],
+        "prereqs": {
+            "1": [
+                "crafting table"
+            ],
+            "3": [
+                "filled xp bucket"
+            ]
+        }
+    },
+    {
+        "index": 5,
+        "title": "growing trees",
+        "details": "grow oak tree on your one dirt",
+        "products": [
+            "oak wood",
+            "apples",
+            "oak sapling"
+        ],
+        "prereqs": {
+            "1": [
+                "oak sapling",
+                "dirt"
+            ]
+        }
+    },
+    {
+        "index": 6,
+        "title": "smelting ores",
+        "details": "put xp bucket dusts into furnace and smelt with wood",
+        "products": [
+            "iron ingot",
+            "tin ingot",
+            "nickel ingot",
+            "copper ingot",
+            "wrought iron ingot",
+            "silver ingot",
+            "gold ingot",
+            "cobalt brass ingot"
+        ],
+        "prereqs": {
+            "1": [
+                "furnace"
+            ],
+            "4": [
+                "dusts"
+            ],
+            "5": [
+                "wood"
+            ]
+        }
+    },
+    {
+        "index": 7,
+        "title": "craft fishing rod",
+        "details": "use ingots and tools to make fishing rod",
+        "products": [
+            "fishing rod"
+        ],
+        "prereqs": {
+            "6": [
+                "iron"
+            ],
+            "5": [
+                "wood"
+            ]
+        }
+    },
+    {
+        "index": 8,
+        "title": "go fishing",
+        "details": "get outputs from fishing in your one water",
+        "products": [
+            "fish",
+            "rotten flesh",
+            "leather",
+            "bone",
+            "lily pad",
+            "book"
+        ],
+        "prereqs": {
+            "7": [
+                "fishing rod"
+            ],
+            "9": [
+                "water"
+            ]
+        }
+    },
+    {
+        "index": 9,
+        "title": "cauldron water",
+        "details": "make a cauldron and wait for it to rain, then bucket water out of cauldron",
+        "products": [
+            "water bucket"
+        ],
+        "prereqs": {
+            "5": [
+                "wood"
+            ],
+            "6": [
+                "iron"
+            ]
+        }
+    },
+    {
+        "index": 10,
+        "title": "make cobblestone generator",
+        "details": "using your lava and water, make a cobblestone generator",
+        "products": [
+            "cobblestone"
+        ],
+        "prereqs": {
+            "9": [
+                "water"
+            ],
+            "1": [
+                "lava"
+            ]
+        }
+    },
+    {
+        "index": 11,
+        "title": "apply hammer to cobblestone",
+        "details": "",
+        "products": [
+            "gravel",
+            "sand"
+        ],
+        "prereqs": {
+            "6": [
+                "iron"
+            ],
+            "10": [
+                "cobblestone"
+            ]
+        }
+    },
+    {
+        "index": 12,
+        "title": "craft dirt",
+        "details": "",
+        "products": [
+            "dirt"
+        ],
+        "prereqs": {
+            "11": [
+                "sand"
+            ],
+            "8": [
+                "rotten flesh"
+            ],
+            "5": [
+                "oak saplings"
+            ]
+        }
+    },
+    {
+        "index": 13,
+        "title": "coke oven",
+        "details": "automated fuel for steam",
+        "products": [
+            "charcoal",
+            "cactus charcoal"
+        ],
+        "prereqs": {
+            "4": [
+                "clay"
+            ],
+            "11": [
+                "sand"
+            ]
+        }
+    },
+    {
+        "index": 14,
+        "title": "steam compressor",
+        "details": "for compressing fireclay dust",
+        "products": [
+            "firebrick",
+            "gt wood plank"
+        ],
+        "prereqs": {
+            "6": [
+                "copper",
+                "tin"
+            ],
+            "4": [
+                "redstone"
+            ],
+            "13": [
+                "charcoal for steam"
+            ],
+            "21": [
+                "piston"
+            ]
+        }
+    },
+    {
+        "index": 15,
+        "title": "bricked blast furnace",
+        "details": "",
+        "products": [
+            "steel"
+        ],
+        "prereqs": {
+            "14": [
+                "firebrick"
+            ],
+            "4": [
+                "gypsum",
+                "calcite",
+                "quartz sand",
+                "clay dust",
+                "stone dust"
+            ],
+            "9": [
+                "water"
+            ]
+        }
+    },
+    {
+        "index": 16,
+        "title": "crossbreed crops",
+        "details": "use 3 dirt and wood to start crossbreeding ic2 crops from saplings",
+        "products": [
+            "aurelia",
+            "ink sac",
+            "brown mushroom",
+            "carrots",
+            "cocoa",
+            "coffee beans",
+            "dyes",
+            "cactus",
+            "ferru",
+            "hops",
+            "melon",
+            "nether wart",
+            "potato",
+            "pumpkin",
+            "red mushroom",
+            "wheat",
+            "sugar cane",
+            "poppy",
+            "sticky resin",
+            "terra wart",
+            "grin powder",
+            "argentia",
+            "bauxia",
+            "blaze powder",
+            "blaze rods",
+            "bobs-yer-uncle-berry",
+            "emerald",
+            "chilly",
+            "coppon",
+            "leather",
+            "rotten flesh",
+            "bone",
+            "bone meal",
+            "gunpowder",
+            "cucumber",
+            "tiny pile of diamond dust",
+            "eggs",
+            "feather",
+            "ender pearl",
+            "eye of ender",
+            "nether quartz dust",
+            "nether quartz",
+            "certus quartz dust",
+            "calcite dust",
+            "phosphate dust",
+            "fertilizer",
+            "apatite",
+            "string",
+            "galvania",
+            "glowstone",
+            "god of thunder",
+            "grape",
+            "rope",
+            "indigo",
+            "lapis dust",
+            "lemon",
+            "liveroots",
+            "raw meat",
+            "micadia",
+            "milk wart",
+            "nickelback",
+            "oil berry",
+            "olivine",
+            "onion",
+            "platina",
+            "plumbilia",
+            "pyrolusium",
+            "iridium leaf",
+            "osmium leaf",
+            "rape",
+            "reactoria",
+            "uranium leaf",
+            "sapphire",
+            "scheelinium",
+            "slimeball",
+            "spider eye",
+            "cobweb",
+            "stargatium",
+            "endstone dust",
+            "coal dust",
+            "steeleaf powder",
+            "steeleaf",
+            "tea",
+            "ghast tear",
+            "tine twig",
+            "tomato",
+            "max tomato",
+            "uua",
+            "uum",
+            "fake ruby",
+            "scrap",
+            "plantball",
+            "plutonium 241 dust",
+            "coal",
+            "aluminium",
+            "water artichoke",
+            "barley",
+            "belladonna",
+            "bop berry",
+            "birch wood",
+            "black granite dust",
+            "",
+            "basalt dust",
+            "blackberry",
+            "blightberry",
+            "blue glowshroom",
+            "blueberry",
+            "cinderpearl",
+            "copper",
+            "cotton",
+            "dark oak wood",
+            "duskberry",
+            "ember moss",
+            "essence berry",
+            "eyebulb",
+            "flowering vines",
+            "garlic",
+            "yellow garnet dust",
+            "red garnet dust",
+            "yellow garnet",
+            "red garnet",
+            "garnet sand",
+            "glint weed",
+            "glowflower",
+            "glowing coral",
+            "glowshroom",
+            "gold",
+            "goldfish",
+            "grass",
+            "double tallgrass",
+            "fern",
+            "large fern",
+            "dead bush",
+            "stone dust",
+            "andesite",
+            "green glowshroom",
+            "huckleberry",
+            "iron oreberry",
+            "ivy",
+            "jungle wood",
+            "armor shards",
+            "thaumium",
+            "maloberry",
+            "mandragora root",
+            "moss",
+            "moss patch",
+            "tree moss",
+            "netherrack dust",
+            "paper",
+            "purple glowshroom",
+            "raspberry",
+            "red granite dust",
+            "granite",
+            "saguaro fruit",
+            "shimmerleaf",
+            "skyberry",
+            "icy needle",
+            "space plant",
+            "spanish moss",
+            "spruce bonsai",
+            "stingberry",
+            "strawberry",
+            "sugar beet",
+            "thornvines",
+            "tin",
+            "turnip",
+            "vines",
+            "lily pad",
+            "marble dust",
+            "diorite",
+            "wild carrots",
+            "wolfsbane",
+            "sand",
+            "lead",
+            "silver",
+            "salty root",
+            "force"
+        ],
+        "prereqs": {
+            "12": [
+                "dirt"
+            ],
+            "5": [
+                "wood"
+            ]
+        }
+    },
+    {
+        "index": 17,
+        "title": "gt++ fish catcher",
+        "details": "",
+        "products": [
+            "fish",
+            "emerald",
+            "bone",
+            "diamond",
+            "ink sac",
+            "seaweed",
+            "iron",
+            "gold",
+            "sand",
+            "slime ball",
+            "slimeball",
+            "pufferfish"
+        ],
+        "prereqs": {
+            "15": [
+                "steel"
+            ]
+        }
+    },
+    {
+        "index": 18,
+        "title": "tc smeltery",
+        "details": "",
+        "products": [
+            "molds",
+            "sticky glue"
+        ],
+        "prereqs": {
+            "11": [
+                "sand",
+                "gravel"
+            ],
+            "4": [
+                "clay dust"
+            ],
+            "1": [
+                "lava"
+            ]
+        }
+    },
+    {
+        "index": 19,
+        "title": "ball mold for glass tube",
+        "details": "",
+        "products": [
+            "glass tube"
+        ],
+        "prereqs": {
+            "15": [
+                "steel"
+            ],
+            "18": [
+                "ball mold"
+            ],
+            "4": [
+                "aluminium"
+            ]
+        }
+    },
+    {
+        "index": 20,
+        "title": "alloy smelter",
+        "details": "",
+        "products": [
+            "red alloy"
+        ],
+        "prereqs": {
+            "6": [
+                "bronze ingot"
+            ],
+            "11": [
+                "gravel"
+            ]
+        }
+    },
+    {
+        "index": 21,
+        "title": "piston craft",
+        "details": "",
+        "products": [
+            "piston"
+        ],
+        "prereqs": {
+            "20": [
+                "red alloy"
+            ]
+        }
+    },
+    {
+        "index": 22,
+        "title": "lv circuits",
+        "details": "",
+        "products": [
+            "LV circuit"
+        ],
+        "prereqs": {
+            "15": [
+                "steel"
+            ],
+            "19": [
+                "glass tube"
+            ],
+            "20": [
+                "red alloy"
+            ],
+            "17": [
+                "slimeball"
+            ],
+            "13": [
+                "carbon/charcoal dust"
+            ]
+        }
+    },
+    {
+        "index": 23,
+        "title": "plant lens",
+        "details": "actually see crop breed without silly methods",
+        "products": [
+            "plant lens"
+        ],
+        "prereqs": {
+            "17": [
+                "diamond"
+            ]
+        }
+    },
+    {
+        "index": 24,
+        "title": "earliest books",
+        "details": "earliest obtainable books from sticky glue bucket",
+        "products": [
+            "book"
+        ],
+        "prereqs": {
+            "18": [
+                "sticky glue"
+            ],
+            "4": [
+                "leather"
+            ],
+            "6": [
+                "iron"
+            ],
+            "20": [
+                "rubber"
+            ]
+        }
+    },
+    {
+        "index": 25,
+        "title": "earliest worktable",
+        "details": "",
+        "products": [
+            "worktable"
+        ],
+        "prereqs": {
+            "24": [
+                "book"
+            ],
+            "14": [
+                "gt wood plank"
+            ]
+        }
+    },
+    {
+        "index": 26,
+        "title": "assembling machine",
+        "details": "",
+        "products": [
+            "recipe plan"
+        ],
+        "prereqs": {
+            "22": [
+                "circuit"
+            ]
+        }
+    },
+    {
+        "index": 27,
+        "title": "centrifuge",
+        "details": "",
+        "products": [
+            "refined glue"
+        ],
+        "prereqs": {
+            "22": [
+                "circuit"
+            ],
+            "17": [
+                "slimeball"
+            ]
+        }
+    },
+    {
+        "index": 28,
+        "title": "earliest xp bucket autocrafting (pr)",
+        "details": "use pr auto crafting bench with a recipe plan to automate xp bucket autocrafting",
+        "products": [
+            "autocrafing"
+        ],
+        "prereqs": {
+            "27": [
+                "refined glue"
+            ],
+            "26": [
+                "recipe plan"
+            ]
+        }
+    }
+]

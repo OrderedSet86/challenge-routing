@@ -1,0 +1,139 @@
+[
+    {
+        "index": 1,
+        "title": "craft hv circuits",
+        "details": "",
+        "products": [
+            "HV circuits"
+        ],
+        "prereqs": {
+            "3": [
+                "transistors"
+            ],
+            "5": [
+                "RAM chips"
+            ]
+        }
+    },
+    {
+        "index": 2,
+        "title": "pyrolyse oven",
+        "details": "",
+        "products": [
+            "polyethylene"
+        ],
+        "prereqs": {
+            "4": [
+                "wood"
+            ]
+        }
+    },
+    {
+        "index": 3,
+        "title": "transistors",
+        "details": "",
+        "products": [
+            "transistors"
+        ],
+        "prereqs": {
+            "2": [
+                "wood gas PE"
+            ]
+        }
+    },
+    {
+        "index": 4,
+        "title": "bonsais",
+        "details": "",
+        "products": [
+            "wood"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 5,
+        "title": "RAM chips",
+        "details": "",
+        "products": [
+            "RAM chips"
+        ],
+        "prereqs": {
+            "7": [
+                "green sapphire lens"
+            ]
+        }
+    },
+    {
+        "index": 6,
+        "title": "scrap boxes",
+        "details": "",
+        "products": [
+            "scrap products"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 7,
+        "title": "9 green sapphire drops",
+        "details": "",
+        "products": [
+            "green sapphire lens"
+        ],
+        "prereqs": {
+            "6": [
+                "405000 scrap items"
+            ]
+        }
+    },
+    {
+        "index": 8,
+        "title": "simmering comb processing",
+        "details": "",
+        "products": [
+            "lava"
+        ],
+        "prereqs": {}
+    },
+    {
+        "index": 9,
+        "title": "centrifuging lava",
+        "details": "",
+        "products": [
+            "tantalite dust",
+            "sapphire dust",
+            "magnesia dust"
+        ],
+        "prereqs": {
+            "8": [
+                "lava"
+            ]
+        }
+    },
+    {
+        "index": 10,
+        "title": "electrolyzing tantalite",
+        "details": "",
+        "products": [
+            "manganese dust",
+            "tantalite dust"
+        ],
+        "prereqs": {
+            "9": [
+                "tantalite"
+            ]
+        }
+    },
+    {
+        "index": 11,
+        "title": "stainless steel dust",
+        "details": "",
+        "products": [
+            "stainless steel dust"
+        ],
+        "prereqs": {
+            "10": [
+                "manganese dust"
+            ]
+        }
+    }
+]
